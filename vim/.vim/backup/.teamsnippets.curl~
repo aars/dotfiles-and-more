@@ -1,2 +1,0 @@
-curl 'https://www.teamsnippets.com/teams/{teamid}/updates' -H 'User-Agent: ts.sh' -H 'Referer: https://www.teamsnippets.com/teams/321/updates/new' -H 'Cookie: _teamsnippets_session=${TS_SESSION}' -H 'Connection: keep-alive' --data 'utf8=%E2%9C%93&authenticity_token=WOMtHSm%2BL9lFbYB5QOXDzL2tBO%2BuzE37JM3cVwuD3pk%3D&update%5Bbody%5D=Testing+my+teamsnippets-script.&commit=Save' --compressed
-
