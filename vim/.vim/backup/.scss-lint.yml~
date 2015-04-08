@@ -1,0 +1,14 @@
+linters:
+  Indentation:
+    enabled: false
+  StringQuotes:
+    enabled: false
+  PropertySortOrder:
+    enabled: false
+    order: concentric
+    ignore_unspecified: true
+  SingleLinePerSelector:
+    enabled: false
+  UnnecessaryParentReference: # TODO: will bitch about & + .selector, not sure how to solve now.
+  SelectorDepth:
+    enabled: false

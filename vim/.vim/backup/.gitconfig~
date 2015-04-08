@@ -1,0 +1,16 @@
+[user]
+	name = Aaron Heesakkers
+	email = aaronheesakkers@gmail.com
+[core]
+	editor = vim
+[merge]
+	tool = vimdiff
+[alias]
+		s				= status
+		lg      = log --graph --pretty  = format:'%C(bold white)%h%Creset -%C(yellow)%d%Creset %s %C(238)(%cr) %C(30)<%an>%Creset' --abbrev-commit
+		pr      = pull --rebase
+		co      = checkout
+		changes = diff --name-status -r
+[filter "media"]
+	clean  = git-media-clean %f
+	smudge = git-media-smudge %f
